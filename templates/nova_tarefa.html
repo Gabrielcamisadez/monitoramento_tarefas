@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><title>Nova Tarefa</title></head>
+<body>
+  <h1>Criar Nova Tarefa</h1>
+  <form method="post">
+    <label>Título: <input name="titulo" required></label><br>
+    <label>Descrição: <textarea name="descricao"></textarea></label><br>
+    <label>Data de Entrega: <input type="date" name="data_entrega"></label><br>
+    <label>Prioridade:
+      <select name="prioridade">
+        <option>Baixa</option>
+        <option>Média</option>
+        <option>Alta</option>
+      </select>
+    </label><br>
+    <label>Responsável: <input name="responsavel"></label><br>
+    <button type="submit">Criar</button>
+  </form>
+</body>
+</html>
