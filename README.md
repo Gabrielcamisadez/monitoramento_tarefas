@@ -1,5 +1,5 @@
 # University project
 
 - Simple task scheduler
-- Python
+- Python3
 - Sqlite3
